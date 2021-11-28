@@ -1,0 +1,28 @@
+.footer__button {
+  padding: 0;
+  border: 0;
+  width: 470px;
+  height: 54px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: $mainColor;
+  cursor: pointer;
+}
+
+.footer__button:hover {
+  opacity: 0.93;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 990px) {
+  .footer__button {
+    width: 240px;
+    height: 48px;
+    font-size: 14px;
+    line-height: 171%;
+  }
+}

@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  background-color: $mainColor;
+  border-radius: 20px;
+  margin: 0 10px 10px 10px;
+}
+
+@media screen and (max-width: 990px) {
+  .footer {
+    max-height: 400px;
+  }
+}

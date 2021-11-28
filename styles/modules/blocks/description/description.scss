@@ -1,0 +1,12 @@
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 60px 170px 120px 170px;
+}
+
+@media screen and (max-width: 1150px) {
+  .description {
+    padding: 70px 30px 70px 30px;
+  }
+}

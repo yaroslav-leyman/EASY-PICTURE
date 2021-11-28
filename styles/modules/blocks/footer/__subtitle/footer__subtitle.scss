@@ -1,0 +1,15 @@
+.footer__subtitle {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 144%;
+  color: rgba(255, 255, 255, 0.7);
+  padding-bottom: 174px;
+}
+
+@media screen and (max-width: 990px) {
+  .footer__subtitle {
+    padding-bottom: 130px;
+  }
+}

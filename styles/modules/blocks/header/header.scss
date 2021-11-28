@@ -1,0 +1,18 @@
+.header {
+  position: relative;
+  min-height: 640px;
+  background-color: $mainColor;
+  border-radius: 20px;
+  margin: 10px 10px 0 10px;
+}
+
+@media screen and (max-width: 990px) {
+  .header {
+    min-height: 602px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .header {
+    padding-bottom: 20px;
+  }
+}

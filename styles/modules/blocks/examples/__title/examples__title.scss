@@ -1,0 +1,21 @@
+.examples__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 113%;
+  color: #111111;
+  padding-bottom: 120px;
+}
+
+@media screen and (max-width: 1280px) {
+  .examples__title {
+    font-size: 33px;
+    line-height: 112%;
+  }
+}
+@media screen and (max-width: 990px) {
+  .examples__title {
+    padding: 0 0 70px 30px;
+  }
+}

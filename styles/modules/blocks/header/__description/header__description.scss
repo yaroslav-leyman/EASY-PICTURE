@@ -1,0 +1,20 @@
+.header__description {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 144%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (max-width: 1280px) {
+  .header__description {
+    font-size: 15px;
+    line-height: 133%;
+  }
+}
+@media screen and (max-width: 720px) {
+  .header__description {
+    padding-bottom: 50px;
+  }
+}

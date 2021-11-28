@@ -1,0 +1,21 @@
+.header__link {
+  margin: 108px 0 0 160px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  width: 240px;
+  text-align: center;
+  cursor: pointer;
+  padding: 15px;
+}
+
+@media screen and (max-width: 990px) {
+  .header__link {
+    margin: 250px 0 0 50px;
+    padding: 12px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .header__link {
+    margin: 50px 0 20px 50px;
+  }
+}

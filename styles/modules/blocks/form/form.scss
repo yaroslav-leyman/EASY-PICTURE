@@ -1,0 +1,22 @@
+.form {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 54px 130px;
+  row-gap: 20px;
+  column-gap: 40px;
+  padding: 0 60px 60px 60px;
+}
+
+@media screen and (max-width: 990px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 119px 30px 119px;
+  }
+}
+@media screen and (max-width: 614px) {
+  .form {
+    padding: 0 20px 50px 20px;
+  }
+}

@@ -1,0 +1,15 @@
+.header__link-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: $mainColor;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 990px) {
+  .header__link-text {
+    font-size: 14px;
+    line-height: 171%;
+  }
+}

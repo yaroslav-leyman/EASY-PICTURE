@@ -3,9 +3,92 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vendor/slick.css">
+  <link rel="stylesheet" href="./styles/index.css">
   <title>EASY-05</title>
 </head>
-<body>
-  
+<body class="page">
+
+  <header class="header">
+    <img src="/images/logo.svg" alt="Логотип" class="header__logo">
+    <div class="header__content">
+      <h1 class="header__title">Не умеете рисовать?<span class="description__accent">Не беда!</span></h1>
+      <p class="header__description">С помощью нашего приложения вы можете<span class="description__accent">чиркануть каляку и получить шедевр.</span></p>
+    </div>
+    <img src="./images/header-img.png" alt="картинка" class="header__image">
+    <div class="header__link"><a href="#" class="header__link-text">Подробнее</a></div>
+  </header>
+
+  <main class="content">
+    <section class="description">
+      <div class="description__part">
+        <h2 class="description__title">AI</h2>
+        <h3 class="description__subtitle">Умный интелект<span class="description__accent">приложения</span></h3>
+        <p class="description__text">С помощью AI приложение анализирует картины<span class="description__accent">мастеров и современных практиков рисования,</span>и достраивает картину за вас.</p>
+      </div>
+      <div class="description__part">
+        <h2 class="description__title">Ч/Б и Цвет</h2>
+        <h3 class="description__subtitle description__subtitle_indent">Рисуйте в любом стиле</h3>
+        <p class="description__text">Будь то карандашная каляка-маляка или цветное произведение, приложение поможет в любой ситуации.</p>
+      </div>
+    </section>
+
+    <section class="examples">
+      <h2 class="examples__title">Чик-чирик и ваша каляка превращается в изумительное произведение искусства.</h2>
+      <div class="examples__pictures" id="items">
+        <img src="/images/examples-img1.png" alt="картинка" class="examples__image">
+        <img src="/images/examples-img2.png" alt="картинка" class="examples__image">
+        <img src="/images/examples-img3.png" alt="картинка" class="examples__image">
+      </div>
+    </section>
+
+    <section class="description">
+      <div class="description__part">
+        <h2 class="description__title">Быстро</h2>
+        <h3 class="description__subtitle">Проблем с рисованием —<span class="description__accent description__accent_another"> нет</span></h3>
+        <p class="description__text">Рисуйте в приложении доступными кистями: карандаш, маркер, линер, масляная кисть и многие другие...</p>
+      </div>
+      <div class="description__part">
+        <h2 class="description__title">Просто</h2>
+        <h3 class="description__subtitle description__subtitle_other">Нарисовали,<span class="description__accent">преобразовали, сохранили</span></h3>
+        <p class="description__text">Раз, два, три, больше нечего тут рассказать.</p>
+      </div>
+    </section>
+
+    <section class="contacts">
+      <h2 class="contacts__title">Качайте приложение и улучшайте свои художества, а потом хвастайтесь ими!</h2>
+      <div class="contacts__container">
+        <h3 class="contacts__subtitle">Хотите нам что-то посоветовать?</h3>
+        <p class="contacts__paragraph">Оставьте заявку и мы свяжемся с вами.</p>
+        <form action="#" class="form">
+          <fieldset class="form__field">
+            <input class="form__input" type="text" placeholder="Ваше Имя">
+          </fieldset>
+          <fieldset class="form__field">
+            <input class="form__input" type="email" placeholder="Контактный Email">
+          </fieldset>
+          <fieldset class="form__field">
+            <input class="form__input" type="text" placeholder="Сообщение">
+          </fieldset>
+          <button type="button" class="contacts__button">Оставить заявку</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer__content">
+        <h2 class="footer__title">Хотите скачать<span class="description__accent">приложение?</span></h2>
+        <p class="footer__subtitle">Качайте в ЭпСтор и ГуглПлэй.</p>
+        <button class="footer__button">Уже скоро!</button>
+      </div>
+      <img src="/images/footer-img.png" alt="картинка" class="footer__image">
+    </section>
+
+  </main>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="./scripts/slick.min.js"></script>
+  <script src="./scripts/index.js"></script>
 </body>
 </html>
