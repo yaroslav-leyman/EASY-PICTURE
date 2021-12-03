@@ -13,3 +13,9 @@
     line-height: 171%;
   }
 }
+@media screen and (max-width: 640px) {
+  .header__link-text {
+    font-size: 12px;
+    line-height: 200%;
+  }
+}

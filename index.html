@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
 <body class="page">
 
   <header class="header">
-    <img src="/images/logo.svg" alt="Логотип" class="header__logo">
+    <img src="./images/logo.svg" alt="Логотип" class="header__logo">
     <div class="header__content">
       <h1 class="header__title">Не умеете рисовать?<span class="description__accent">Не беда!</span></h1>
       <p class="header__description">С помощью нашего приложения вы можете<span class="description__accent">чиркануть каляку и получить шедевр.</span></p>
@@ -24,7 +24,7 @@
       <div class="description__part">
         <h2 class="description__title">AI</h2>
         <h3 class="description__subtitle">Умный интелект<span class="description__accent">приложения</span></h3>
-        <p class="description__text">С помощью AI приложение анализирует картины<span class="description__accent">мастеров и современных практиков рисования,</span>и достраивает картину за вас.</p>
+        <p class="description__text">С помощью AI приложение анализирует картины<span class="description__accent description__accent_other">мастеров и современных практиков рисования,</span>и достраивает картину за вас.</p>
       </div>
       <div class="description__part">
         <h2 class="description__title">Ч/Б и Цвет</h2>
@@ -60,31 +60,31 @@
       <div class="contacts__container">
         <h3 class="contacts__subtitle">Хотите нам что-то посоветовать?</h3>
         <p class="contacts__paragraph">Оставьте заявку и мы свяжемся с вами.</p>
-        <form action="#" class="form">
+        <form action="#" name="form" class="form">
           <fieldset class="form__field">
-            <input class="form__input" type="text" placeholder="Ваше Имя">
+            <input class="form__input" type="text" name="name" placeholder="Ваше Имя">
           </fieldset>
           <fieldset class="form__field">
-            <input class="form__input" type="email" placeholder="Контактный Email">
+            <input class="form__input" type="email" name="email" placeholder="Контактный Email">
           </fieldset>
           <fieldset class="form__field">
-            <input class="form__input" type="text" placeholder="Сообщение">
+            <input class="form__input" type="text" name="text" placeholder="Сообщение">
           </fieldset>
-          <button type="button" class="contacts__button">Оставить заявку</button>
+          <button type="submit" class="contacts__button">Оставить заявку</button>
         </form>
       </div>
     </section>
 
-    <section class="footer">
-      <div class="footer__content">
-        <h2 class="footer__title">Хотите скачать<span class="description__accent">приложение?</span></h2>
-        <p class="footer__subtitle">Качайте в ЭпСтор и ГуглПлэй.</p>
-        <button class="footer__button">Уже скоро!</button>
-      </div>
-      <img src="/images/footer-img.png" alt="картинка" class="footer__image">
-    </section>
-
   </main>
+
+  <footer class="footer">
+    <div class="footer__content">
+      <h2 class="footer__title">Хотите скачать<span class="description__accent">приложение?</span></h2>
+      <p class="footer__subtitle">Качайте в ЭпСтор и ГуглПлэй.</p>
+      <button class="footer__button">Уже скоро!</button>
+    </div>
+    <img src="./images/footer-img.png" alt="картинка" class="footer__image">
+  </footer>
 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
