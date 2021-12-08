@@ -13,3 +13,10 @@
     padding-bottom: 130px;
   }
 }
+@media screen and (max-width: 640px) {
+  .footer__subtitle {
+    font-size: 12px;
+    line-height: 15px;
+    padding-bottom: 95px;
+  }
+}

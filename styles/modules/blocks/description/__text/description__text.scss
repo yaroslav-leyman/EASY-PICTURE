@@ -18,3 +18,8 @@
     padding-right: 30px;
   }
 }
+@media screen and (max-width: 640px) {
+  .description__text {
+    padding-right: 0;
+  }
+}

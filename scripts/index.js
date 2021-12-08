@@ -1,3 +1,4 @@
+//Slick-Examples
 $(window).on('load resize orientationchange', function() {
     $('.examples__pictures').each(function(){
         var $carousel = $(this);
@@ -13,7 +14,7 @@ $(window).on('load resize orientationchange', function() {
                 $carousel.slick({
                   dots: true,
                   speed: 1200,
-                  // adaptiveHeight: true,
+                  adaptiveHeight: true,
                   arrows: false,
                   mobileFirst: true
               });
@@ -22,3 +23,27 @@ $(window).on('load resize orientationchange', function() {
   });
 });
 
+//Slick-Description
+$(window).on('load resize orientationchange', function() {
+    $('.description').each(function(){
+        var $carousel = $(this);
+        /* Initializes a slick carousel only on mobile screens */
+        // slick on mobile
+        if ($(window).width() > 640) {
+            if ($carousel.hasClass('slick-initialized')) {
+                $carousel.slick('unslick');
+            }
+        }
+        else{
+            if (!$carousel.hasClass('slick-initialized')) {
+                $carousel.slick({
+                  dots: true,
+                  speed: 1200,
+                  adaptiveHeight: true,
+                  arrows: false,
+                  mobileFirst: true
+              });
+        }
+      }
+  });
+});

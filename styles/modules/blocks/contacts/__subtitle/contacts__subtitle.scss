@@ -20,3 +20,8 @@
     line-height: 31px;
   }
 }
+@media screen and (max-width: 640px) {
+  .contacts__subtitle {
+    padding: 20px;
+  }
+}
